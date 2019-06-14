@@ -22,6 +22,21 @@ NOTE: you need to have your mongo instance running on the standard port 27017.
 In case you don't have mongoDb installed, look down below in the section "How to install MongoDb"
 
 
+Once the packages are installed then just open 2 terminals (one for the backend and one for the ui):
+a. In the first terminal let's run the backend:
+```sh
+cd backend
+npm start
+```
+
+b. In the second terminal let's run the ui:
+```sh
+cd ui
+npm run serve
+```
+
+Now if you navigate in your browser to the link http://localhost:8080 you will see the home page working.
+
 # How to run test
 
 Navigate to the backend folder and simply run:
